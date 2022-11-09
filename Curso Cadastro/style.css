@@ -19,9 +19,6 @@ body{
     background: linear-gradient(90deg, #0700b8 0%, #00ff88 100%);
 }
 
-
-
-
 main{
     width: 90vh;
     height: 80vh;
@@ -143,8 +140,9 @@ div.div_nome_sobrenome input{
 }
 
 #input_sobrenome{
-    width: 94%;
+    width: 84%;
 }
+
 #input_nome{
     width: 100%;
     margin-left: 15px;
@@ -160,6 +158,8 @@ div.div_nome_sobrenome input{
     padding-left: 8%;
     margin: 10px;
     outline: none;
+    font-size: 1rem;
+    font-weight: 550;
     
 }
 
@@ -177,18 +177,6 @@ div.div_nome_sobrenome input{
     border-right:2px solid black ;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 /*------------ Botão estilização e animação ------------*/
 
 #form_btn{
@@ -199,7 +187,7 @@ div.div_nome_sobrenome input{
 
 #btn{
     margin-top: 15px;
-    margin-right: 29px;
+    margin-right: 14px;
     cursor: pointer;
     padding: 10px;
     border-radius: 9px;
@@ -211,6 +199,7 @@ div.div_nome_sobrenome input{
 #btn:hover{
     background: rgba(255, 255, 255, 0.822);
     font-weight: bold;
+    color: black;
 }
 
 
