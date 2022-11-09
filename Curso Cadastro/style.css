@@ -125,46 +125,81 @@ form{
 }
 
 /*------------  Configuraçoes de Inputs/labels e animações  ---------*/
-.textfield{
+div.textfield{
     position: relative;
     text-align: center;
     color: #00ff88;
     
 }
 
-.div_nome_sobrenome{
+div.div_nome_sobrenome{
     display: flex;
     margin-left: 0px;
 }
 
-.div_nome_sobrenome input{
-    width: 80%;
+div.div_nome_sobrenome input{
+    width: 95%;
+    margin-left: 10%;
+}
+
+#input_sobrenome{
+    width: 94%;
+}
+#input_nome{
+    width: 100%;
+    margin-left: 15px;
 }
 
 .inputs_form{
-    width: 90%;
+    width: 95%;
     height: 40px;
     color: black;
     border: 2px solid rgb(0, 211, 211);
     border-radius: 10px;
     padding: 0 20px;
+    padding-left: 8%;
     margin: 10px;
     outline: none;
+    
 }
 
-.inputs_form:focus{
+.inputs_form:focus, .inputs_form:hover{
     background-color: #ADD8E6;
+    border: 2px solid #1f1f1f ;
 }
+
+.textfield i{
+    position: absolute;
+    left: 5%;
+    top: 50%;
+    padding-right: 2%;
+    color: #1f1f1f;
+    border-right:2px solid black ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*------------ Botão estilização e animação ------------*/
 
 #form_btn{
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: end;
 }
 
 #btn{
+    margin-top: 15px;
+    margin-right: 29px;
     cursor: pointer;
     padding: 10px;
     border-radius: 9px;
@@ -174,6 +209,8 @@ form{
 }
 
 #btn:hover{
-    background: white;
+    background: rgba(255, 255, 255, 0.822);
+    font-weight: bold;
 }
+
 
